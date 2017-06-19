@@ -38,6 +38,7 @@ RUN apt-get update > /dev/null && apt-get install -y --no-install-recommends \
         pyflakes \
         python3.6 \
         python3.6-dev \
+        python3-dev \
         python-dev \
         python-pip \
         python-pytest \
