@@ -24,6 +24,9 @@ set +u
 . .tox/manpages/bin/activate
 set -u
 
+echo "DEBUG"
+paasta --version
+
 VERSION=`paasta --version 2>&1 | cut -f 2 -d ' '`
 
 function build_man() {
