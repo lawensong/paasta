@@ -20,9 +20,9 @@ set -euxo pipefail
 mkdir -p /nail/etc/services
 
 mkdir -p docs/man/
-set +u
-. .tox/manpages/bin/activate
-set -u
+# set +u
+# . .tox/manpages/bin/activate
+# set -u
 
 echo "DEBUG"
 paasta --version
